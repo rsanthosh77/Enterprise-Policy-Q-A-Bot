@@ -1,0 +1,19 @@
+{
+  "reviewer": "Coding assistant source inspection; not independent human review",
+  "rubric_adjustments": [
+    {
+      "case": "learning",
+      "excluded_fact_indices": [
+        1
+      ],
+      "reason": "The frozen rubric additionally demanded the list of eligible purchases. The actual question asks amount, availability and approvals. Exclude this unrequested criterion uniformly across all four presets in the separately reported question-aligned score. Preserve all original facts and scores in evaluation_results.json."
+    }
+  ],
+  "observations": [
+    "Rubric-scope artifact: frozen L&D failures concern missing allowed-use lists, not the asked amount, availability or approval thresholds. The original strict score and a separately labeled question-aligned score are both retained; the correction applies uniformly to every preset.",
+    "Gold redundancy: L&D labels request both HR 6.3 and onboarding 4.3, but onboarding 4.3 alone supplies the amount, Day-1 availability, proration and approvals. Sparse gold-section loss therefore does not necessarily mean missing answer evidence. Gold precision and recall describe annotated source coverage rather than a formally minimal necessary evidence set.",
+    "Verbosity: several correct primary answers include extra sourced details, such as vendor DPA deadlines in the employee-breach question and enrollment/part-time rules in the retirement question. This can dilute the answer even though the semantic judge passes correctness and citations. Prefer the direct answer first, then optional scoped context.",
+    "Potential false-positive conflict: the primary training answer calls the Day-1 security durations inconsistent (one hour in onboarding 3.1, thirty minutes in onboarding 2.3). The source does not establish unambiguously that these differently described modules are identical. Treat this as a possible discrepancy requiring clarification, rather than a definitively proven contradiction; the automated judge accepted it. This illustrates the limits of model-only conflict grading. No runtime changes were made to suppress or hide it.",
+    "Citation-span grading inconsistency: the reranked retirement answer gives the correct Day-90 timing and cites onboarding 5.2, whose heading supplies the timing, but its quoted span omits that heading. The rubric judge fails that citation while accepting a similarly shortened quote in the primary hybrid answer. Preserve the frozen failure as a citation-span diagnostic; it is not evidence of a wrong retirement rule or a proven reranking regression. Prefer quotes including headings when timing depends on them, and standardize whether citation grading evaluates the quote alone or the entire cited source."
+  ]
+}

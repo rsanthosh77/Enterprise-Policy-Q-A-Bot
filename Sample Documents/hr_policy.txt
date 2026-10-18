@@ -1,0 +1,162 @@
+ACME CORPORATION — HUMAN RESOURCES POLICY MANUAL
+Version 4.2 | Effective Date: January 1, 2025 | Reviewed by: People Operations
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 1: EMPLOYMENT CLASSIFICATIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1.1 Full-Time Employees
+Employees scheduled to work 40 hours per week on a regular basis. Full-time employees are eligible for all company benefits including health insurance, retirement contributions, paid time off, and annual performance bonuses.
+
+1.2 Part-Time Employees
+Employees scheduled to work fewer than 30 hours per week. Part-time employees working 20 or more hours per week are eligible for prorated PTO accrual and may enroll in company health insurance at their own expense. Part-time employees are not eligible for retirement matching contributions unless they complete 1,000 hours of service in a calendar year.
+
+1.3 Contract Workers
+Independent contractors are not employees of ACME Corporation and are not eligible for company benefits. All contractor engagements must be routed through Procurement and require a signed Master Services Agreement before any work commences. Contractors may not use ACME equipment for personal purposes.
+
+1.4 Temporary Employees
+Temporary employees placed via staffing agencies are governed by the agency's employment policies for most benefit purposes. However, ACME's Code of Conduct, Confidentiality, and Acceptable Use policies apply equally to temporary staff.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 2: PAID TIME OFF (PTO) POLICY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2.1 Accrual Schedule
+PTO accrues from the first day of employment. Accrual rates are as follows:
+- Years 0-2: 15 days (120 hours) per year, accrued at 1.25 days/month
+- Years 3-5: 20 days (160 hours) per year, accrued at 1.67 days/month
+- Years 6+: 25 days (200 hours) per year, accrued at 2.08 days/month
+
+PTO accrual is paused during unpaid leave of absence exceeding 30 consecutive days.
+
+2.2 PTO Carryover and Cap
+Unused PTO may be carried over from one calendar year to the next, up to a maximum of 1.5x the employee's annual accrual. For example, an employee accruing 15 days per year may carry a maximum of 22.5 days. Balances above the cap are forfeited on December 31 each year. ACME does not pay out unused PTO except upon separation.
+
+2.3 PTO Payout on Separation
+Upon voluntary resignation with at least two weeks' notice, employees will receive a payout for all accrued, unused PTO up to the carryover cap. Employees terminated for cause forfeit any unused PTO balance. This policy complies with all applicable state wage laws; employees in California, Illinois, and Massachusetts have additional protections under state law.
+
+2.4 Requesting PTO
+PTO requests must be submitted through Workday at least three business days in advance for absences of five days or fewer. Requests for six or more consecutive days require fourteen days' advance notice. In emergency circumstances, employees should notify their manager as soon as practicable. Managers may deny PTO requests based on operational needs, but must communicate the denial within 48 hours.
+
+2.5 Sick Time
+ACME provides a separate bank of 10 sick days per year (non-accruing, resets January 1). Sick time is not counted against PTO. Sick time may be used for personal illness, medical appointments, and care for an immediate family member. Sick days do not carry over and are not paid out upon separation. Abuse of sick time may result in disciplinary action up to and including termination.
+
+2.6 Bereavement Leave
+Employees are entitled to:
+- 5 paid days for the death of a spouse, domestic partner, child, or parent
+- 3 paid days for the death of a sibling, grandparent, grandchild, or parent-in-law
+- 1 paid day for the death of an aunt, uncle, niece, nephew, or close personal friend
+
+Bereavement leave does not affect the PTO balance. Additional time may be taken as PTO if needed. Employees must notify their manager as soon as possible and may be asked to provide documentation (e.g., obituary, funeral program) upon return.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 3: REMOTE WORK POLICY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+3.1 Eligibility
+Remote work arrangements are available to full-time employees who have completed at least 90 days of employment, have received a "Meets Expectations" or better on their most recent performance review, and whose role has been designated as "remote-eligible" by their department head. Roles requiring physical presence (e.g., facilities, lab operations, front-desk reception) are not eligible.
+
+3.2 Work Schedules
+Remote employees must be available and responsive during core business hours: 10:00 AM to 3:00 PM in the employee's designated time zone, Monday through Friday. Outside core hours, employees are expected to respond to messages within 4 business hours. Employees are not required to be available on scheduled PTO, holidays, or outside their contracted weekly hours.
+
+3.3 Hybrid vs. Fully Remote
+- Hybrid employees work from a company office at least 2 days per week, as scheduled with their manager.
+- Fully remote employees are not assigned a home office location but may be required to travel to an office up to 10 days per quarter for team meetings, training, or business events. Travel costs are reimbursed per the Travel Policy (Section 9).
+
+3.4 Home Office Equipment and Security
+ACME will provide: a laptop or workstation, a monitor (single), keyboard, and mouse. Employees are responsible for providing adequate internet connectivity (minimum 25 Mbps download, 10 Mbps upload). A monthly stipend of $50 is provided to offset internet costs and is reported as taxable income. Personal devices must not be used to access company systems unless enrolled in Mobile Device Management (MDM). VPN is mandatory for all access to internal systems.
+
+3.5 International Remote Work
+Working from outside the United States requires written approval from the employee's VP-level manager and the Chief People Officer, at least 30 days in advance. Tax, visa, and labor law implications will be assessed by HR before approval. Approved international remote work may not exceed 90 consecutive days in any country without a separate legal review.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 4: PERFORMANCE MANAGEMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4.1 Review Cycle
+ACME conducts formal performance reviews twice per year:
+- Mid-Year Check-In: June (feedback-only, no rating, no compensation impact)
+- Annual Review: November-December (includes rating and compensation decisions effective January 1)
+
+4.2 Rating Scale
+- Exceptional (5): Significantly exceeds all goals; demonstrates role model behavior
+- Exceeds Expectations (4): Consistently surpasses most goals; strong contributor
+- Meets Expectations (3): Fully achieves core responsibilities; solid performer
+- Needs Improvement (2): Partially meets expectations; formal PIP may be initiated
+- Unsatisfactory (1): Fails to meet basic role requirements; immediate PIP required
+
+4.3 Performance Improvement Plans (PIP)
+A PIP is a formal document outlining specific performance deficiencies, measurable improvement targets, a timeline (typically 30-90 days), and consequences for non-improvement. PIPs must be approved by HR before issuance. An employee on a PIP is not eligible for promotion, salary increases, or discretionary bonuses during the PIP period. Successful completion of a PIP removes the formal status; the performance record remains visible in Workday for 24 months.
+
+4.4 Annual Bonus
+Employees at Grades 4-10 are eligible for an annual performance bonus based on individual rating and company performance multiplier. Bonus targets as a percentage of base salary:
+- Grade 4-5: 5%
+- Grade 6-7: 10%
+- Grade 8-9: 15%
+- Grade 10+: 20% and above (per offer letter)
+Employees must be actively employed on December 31 to receive the bonus. Employees hired after September 30 receive a prorated bonus based on months of service.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 5: CODE OF CONDUCT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+5.1 Workplace Respect
+All employees, contractors, and visitors are expected to treat one another with dignity and respect. ACME does not tolerate harassment, bullying, or discrimination based on race, color, religion, national origin, sex, gender identity or expression, sexual orientation, age (40+), disability, veteran status, pregnancy, or any other characteristic protected by law.
+
+5.2 Conflict of Interest
+Employees must avoid situations that create, or appear to create, a conflict between personal interests and ACME's interests. This includes: outside employment with a competitor, personal financial interest in a supplier or customer, and hiring or supervising a family member. All potential conflicts must be disclosed to the employee's manager and HR within 30 days of becoming apparent.
+
+5.3 Gifts and Entertainment
+Employees may accept gifts valued at $50 or less from business contacts. Gifts exceeding $50 must be declined or surrendered to the company for charitable donation. Cash or cash equivalents (gift cards, cryptocurrency) may never be accepted regardless of value. Providing gifts to government officials is subject to additional restrictions under the Foreign Corrupt Practices Act (FCPA) — contact Legal before any such interaction.
+
+5.4 Social Media
+Employees may discuss their employment on personal social media but must not disclose confidential information, make disparaging statements about ACME customers or partners, or represent personal opinions as ACME's official position. Employees who manage ACME's official social accounts must follow the Social Media Brand Guide (available on the intranet).
+
+5.5 Disciplinary Process
+Violations of the Code of Conduct are handled as follows:
+- Minor violations (first offense): Verbal warning documented in Workday
+- Moderate violations or repeat minor violations: Written warning
+- Serious violations: Final written warning or immediate termination
+- Gross misconduct (fraud, harassment, safety violations): Immediate termination
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 6: BENEFITS SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+6.1 Health Insurance
+ACME offers three health plan options through BlueCross BlueShield:
+- Bronze PPO: $0 employee premium, $3,500 individual deductible
+- Silver HMO: $85/month employee premium, $1,500 individual deductible
+- Gold PPO: $210/month employee premium, $500 individual deductible
+
+ACME contributes 80% of the Silver HMO premium cost. Dependents may be added at the employee's expense. Open enrollment is in October each year, with coverage effective January 1.
+
+6.2 Retirement
+ACME matches 100% of employee 401(k) contributions up to 4% of base salary. Vesting schedule: 25% per year of service, fully vested at 4 years. Employees may contribute above the match up to IRS annual limits.
+
+6.3 Other Benefits
+- Dental and vision insurance (employee cost: $8 and $4/month respectively)
+- Life insurance: 2x annual salary at no cost to employee
+- Employee Assistance Program (EAP): 8 free counseling sessions per year
+- Learning and Development stipend: $1,500 per year for approved courses, certifications, or conferences
+- Gym reimbursement: Up to $50/month for gym membership or fitness apps
+- Commuter benefits: Pre-tax transit/parking up to IRS limits
+
+6.4 Parental Leave
+Primary caregivers receive 16 weeks of fully paid parental leave following the birth, adoption, or foster placement of a child. Secondary caregivers receive 6 weeks of fully paid leave. Leave must be taken within 12 months of the qualifying event. ACME's parental leave is in addition to any state-mandated paid family leave benefits.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 7: SEPARATION AND OFFBOARDING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+7.1 Voluntary Resignation
+Employees are requested to provide a minimum of two weeks' written notice via Workday. Senior employees (Grade 8+) are requested to provide four weeks' notice. ACME reserves the right to accept notice immediately and place the employee on garden leave for the notice period with continued pay. Access to systems may be restricted on the date notice is accepted.
+
+7.2 Return of Company Property
+All company equipment, access badges, and confidential materials must be returned on or before the last day of employment. Employees shipping equipment are provided a prepaid shipping label by IT. Failure to return equipment will result in deduction from the final paycheck as permitted by state law.
+
+7.3 Non-Solicitation
+For 12 months following separation, former employees may not solicit ACME customers or employees with whom they had direct contact in the 24 months prior to separation. This clause is enforceable to the maximum extent permitted by applicable law.
+
+7.4 COBRA and Benefit Continuation
+Departing employees may continue health, dental, and vision coverage under COBRA for up to 18 months at their own expense. COBRA election packets are mailed within 14 days of coverage loss. Life insurance may be converted to an individual policy without a medical exam if requested within 31 days of separation.

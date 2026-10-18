@@ -1,0 +1,5 @@
+pinecone>=10,<11
+langchain-anthropic>=1,<2
+streamlit>=1.40,<2
+python-dotenv>=1,<2
+pytest>=8,<9

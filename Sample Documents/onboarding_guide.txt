@@ -1,0 +1,151 @@
+ACME CORPORATION — EMPLOYEE ONBOARDING GUIDE
+Welcome to ACME! This guide covers everything you need for your first 90 days.
+Version: 2025.1 | People Operations | questions: onboarding@acmecorp.com
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART 1: BEFORE YOUR FIRST DAY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Pre-boarding Checklist
+Within 48 hours of receiving your offer acceptance, you will receive emails from:
+1. IT (it-setup@acmecorp.com) — to choose your laptop model and operating system preference (Mac or PC)
+2. HR (hr@acmecorp.com) — to complete I-9, W-4, direct deposit, and benefits enrollment
+3. Your manager — a welcome note and first-week schedule
+
+Action Items Before Day 1:
+- Complete the I-9 and W-4 forms in Workday (deadline: Day 1 of employment — federal requirement)
+- Select your benefits during the 30-day new hire enrollment window (health, dental, vision, 401k)
+- Review your offer letter and flag any discrepancies to hr@acmecorp.com
+- Set up your ACME email (instructions in the IT setup email) and complete MFA enrollment
+- Download Slack, Zoom, and the ACME VPN client (GlobalProtect) on your personal device before Day 1
+
+Equipment: Your laptop and peripherals will be shipped to your home address (or available for pickup at your office location). Expect delivery 2-3 business days before your start date. If it does not arrive, contact IT immediately.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART 2: YOUR FIRST DAY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2.1 What to Expect
+First-day orientation runs 9:00 AM - 12:00 PM EST (virtual for remote employees, in-person for office-based). The session covers: company history and culture, org chart overview, IT security essentials, and a tour of key tools.
+
+2.2 Tools You Will Use From Day 1
+- Workday: Your HR system of record. Manage time-off requests, performance reviews, pay stubs, and personal info.
+- Slack: Primary internal communication. Join #announcements, #general, and your team channel on Day 1. Avoid over-relying on email for internal conversations.
+- Zoom: Video meetings. All All-Hands and 1:1s default to Zoom.
+- Jira: Project and task tracking (Engineering, Product, Design, Data teams). Other teams may use Asana or Monday.
+- Confluence: Internal wiki and knowledge base. Search here before asking a colleague.
+- Google Workspace: Docs, Sheets, Slides, Drive for document collaboration.
+- Expensify: Submit expense reports within 30 days of incurring the expense.
+- Okta: Single Sign-On for all ACME applications. If a tool asks for a password, try "Sign in with Okta" first.
+
+2.3 Setting Up Your Workspace
+IT will pre-configure your laptop with standard software. First-time login requires your ACME email and Okta password. After logging in:
+1. Connect to the ACME VPN (GlobalProtect) — required before accessing internal systems
+2. Complete endpoint security enrollment (CrowdStrike) — IT will prompt automatically
+3. Verify your Slack, Zoom, and Google Workspace access
+4. Complete the mandatory Day 1 security training module in the LMS (30 minutes)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART 3: FIRST 30 DAYS — LEARN AND CONNECT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+3.1 Mandatory Training (Complete by Day 30)
+All new employees must complete the following training modules in the Learning Management System (LMS at learn.acmecorp.com):
+- Information Security Awareness (1 hour) — Day 1
+- Code of Conduct and Ethics (45 minutes) — Week 1
+- Anti-Harassment and Workplace Respect (1 hour) — Week 1
+- Data Privacy Fundamentals (45 minutes) — Week 2
+- Anti-Money Laundering Basics (30 minutes, if applicable to role) — Week 2
+- Insider Trading Prevention (30 minutes, Finance/Legal/Product roles) — Week 2
+Incomplete training by Day 30 will be escalated to your manager.
+
+3.2 Meet Your Team
+Your manager will schedule a series of intro meetings:
+- 1:1 with your manager (Day 1): Discuss role expectations, immediate priorities, and communication preferences
+- Team introductions (Week 1): Meet your immediate team in a group setting
+- Cross-functional intros (Weeks 2-3): At least 5 meetings with stakeholders in adjacent teams
+- "Coffee Chat" program: HR will match you with 3 peer mentors across the company during your first month
+
+3.3 Understanding the Org
+The ACME organizational structure has five divisions:
+- Product & Technology: Product Management, Engineering, Data Science, Design
+- Go-To-Market: Sales, Marketing, Customer Success, Business Development
+- Finance & Operations: Finance, Accounting, Legal, Compliance, IT, HR
+- Strategy: Corporate Strategy, M&A, Investor Relations
+- Delivery: Professional Services, Implementation, Support
+
+Each division is led by a C-suite executive who reports to the CEO. The Executive Leadership Team (ELT) holds a weekly Monday meeting. Key decisions and strategy updates are communicated via the monthly All-Hands (last Thursday of each month, 3 PM EST).
+
+3.4 Setting Goals (OKRs)
+Within your first 30 days, work with your manager to set your first-quarter OKRs (Objectives and Key Results). ACME runs OKRs on a quarterly cycle:
+- Q1: January-March | Planning in December
+- Q2: April-June | Planning in March
+- Q3: July-September | Planning in June
+- Q4: October-December | Planning in September
+
+OKRs are set at company, team, and individual levels. Individual OKRs should connect to team OKRs. Aim for 3-5 objectives with 2-4 measurable key results each. OKRs are visible to your manager and their management chain.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART 4: DAYS 31-60 — CONTRIBUTE AND BUILD
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4.1 Taking Ownership
+By the end of Month 2, you should be: leading at least one project or workstream independently, making decisions within your role's scope without requiring manager approval for each, and attending and contributing to relevant meetings rather than observing.
+
+4.2 Expense Reimbursements
+Business expenses (travel, software, supplies) are reimbursed through Expensify:
+- Submit within 30 days of the expense date; late submissions may be denied
+- Attach receipts for all items above $25
+- For travel expenses, reference the Travel Policy (intranet) for per diem rates and booking rules
+- Reimbursements are processed in the next payroll cycle after approval
+
+Software purchases above $500 require IT pre-approval via the software request form on the IT portal.
+
+4.3 Learning and Development
+Your $1,500 annual L&D stipend is available from Day 1 (prorated for the calendar year). Use it for:
+- External courses and certifications (Coursera, Udemy, AWS, GMAT prep — any professional topic)
+- Industry conferences (travel costs covered separately via the Travel Policy)
+- Books and professional subscriptions
+
+Submit L&D requests in Workday under "Learning Requests." Manager approval is required for items above $500 or conferences requiring travel. ACME also has enterprise licenses for: LinkedIn Learning, O'Reilly, and Pluralsight — available at no extra cost.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART 5: DAYS 61-90 — ACCELERATE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+5.1 90-Day Check-In
+Your manager will conduct a formal 90-day check-in. This is not a performance review — it is a two-way conversation covering: what is going well, what needs adjustment, whether your role matches expectations, and what support you need in the next quarter. Prepare a written self-assessment in advance (template in Workday).
+
+5.2 After Day 90
+- You are now eligible to apply for remote work arrangements (subject to HR policy — see HR Manual Section 3.1)
+- Your 401(k) contributions begin accruing company match
+- You become eligible to participate in the Employee Referral Program ($3,000 bonus for successful referrals; paid 90 days after the referred employee starts)
+
+5.3 Key Contacts and Resources
+- IT Help Desk: it@acmecorp.com | Slack: #it-help | 24/7 for P1 outages
+- HR (general inquiries): hr@acmecorp.com | Slack: #hr-help
+- Payroll questions: payroll@acmecorp.com
+- Benefits questions: benefits@acmecorp.com | also available via Workday
+- Legal / Compliance: compliance@acmecorp.com (non-urgent), ethics hotline for reporting
+- Facilities (office access, parking, supplies): facilities@acmecorp.com
+- Internal IT Service Portal: it.acmecorp.com (software requests, hardware issues, access requests)
+- HR Intranet: hr.acmecorp.com (all policies, forms, org charts)
+- Confluence Home: wiki.acmecorp.com (team wikis, how-tos, runbooks)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART 6: OFFICE LOCATIONS AND ACCESS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+6.1 Office Locations
+ACME has four office locations:
+- Headquarters: 100 Innovation Way, San Francisco, CA 94105 (Floors 12-18, WeWork)
+- East Coast Hub: 350 5th Avenue, Suite 4200, New York, NY 10118
+- European HQ: Rosenthaler Str. 40, 10178 Berlin, Germany
+- APAC Hub: 8 Shenton Way, #32-00, Singapore 068811
+
+All offices are open Monday-Friday, 8 AM - 8 PM local time. Access is via Kisi-enabled access card (mailed to home address for remote employees). Visitors must be pre-registered in the Envoy visitor management system at least 24 hours in advance.
+
+6.2 Parking and Commuter Benefits
+San Francisco HQ: No dedicated parking. Pre-tax Commuter Card available for BART/MUNI/Caltrain. Bicycle parking available on Floor B1.
+New York: Discounted parking at 333 W 34th St garage (register via Facilities). Pre-tax transit card available.
+Remote employees: $50/month internet stipend (see HR Manual Section 3.4). No additional commuter benefit.

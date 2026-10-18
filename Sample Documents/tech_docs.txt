@@ -1,0 +1,144 @@
+ACME PLATFORM — TECHNICAL DOCUMENTATION
+Version 3.1 | Last Updated: March 2024
+=======================================
+
+1. API AUTHENTICATION
+---------------------
+The ACME API uses OAuth 2.0 with Bearer Token authentication. All API requests must include
+a valid Bearer token in the Authorization header:
+
+    Authorization: Bearer <your_access_token>
+
+To obtain an access token:
+  1. Register your application at https://developer.acme.com/apps
+  2. Note your CLIENT_ID and CLIENT_SECRET
+  3. Make a POST request to https://api.acme.com/oauth/token with:
+       grant_type=client_credentials
+       client_id=<CLIENT_ID>
+       client_secret=<CLIENT_SECRET>
+  4. The response returns an access_token (valid for 3600 seconds) and a refresh_token.
+  5. Use the refresh_token to obtain a new access_token before expiry.
+
+Tokens expire after 1 hour. Refresh tokens are valid for 30 days. Do not expose secrets
+in client-side code. Use environment variables to store credentials.
+
+2. RATE LIMITING
+----------------
+The ACME API enforces rate limits to ensure fair usage:
+- Standard tier: 100 requests per minute per API key
+- Professional tier: 500 requests per minute per API key
+- Enterprise tier: 2,000 requests per minute per API key
+
+Rate limit headers are included in every response:
+  X-RateLimit-Limit: 100
+  X-RateLimit-Remaining: 87
+  X-RateLimit-Reset: 1711900800   (Unix timestamp when limit resets)
+
+When the rate limit is exceeded, the API returns HTTP 429 Too Many Requests with a
+Retry-After header indicating the number of seconds to wait before retrying.
+Implement exponential backoff with jitter for retry logic. Do not immediately retry on 429.
+
+3. ERROR CODES REFERENCE
+------------------------
+400 Bad Request         — The request is malformed or missing required parameters.
+                          Check request body and query parameters.
+401 Unauthorized        — Missing or invalid Bearer token. Re-authenticate.
+403 Forbidden           — Valid token but insufficient permissions for this resource.
+                          Check the scopes granted to your application.
+404 Not Found           — The requested resource does not exist. Verify the endpoint URL.
+409 Conflict            — The resource already exists or there is a state conflict.
+422 Unprocessable Entity — Request is well-formed but contains semantic errors.
+429 Too Many Requests   — Rate limit exceeded. See X-RateLimit-Reset header.
+500 Internal Server Error — Unexpected server error. Retry with exponential backoff.
+502 Bad Gateway         — Upstream service unavailable. Retry after 30 seconds.
+503 Service Unavailable — API is under maintenance. Check status.acme.com for updates.
+
+4. SYSTEM ARCHITECTURE OVERVIEW
+---------------------------------
+ACME Platform is built on a microservices architecture deployed on AWS:
+
+Core Services:
+  - API Gateway (Kong): Routes and authenticates all external requests
+  - Auth Service: Handles OAuth 2.0, token issuance, and validation
+  - User Service: Manages user accounts, profiles, and preferences
+  - Data Service: Core business logic and data processing
+  - Notification Service: Email, SMS, and push notifications via AWS SNS
+  - Storage Service: File uploads and retrieval via AWS S3
+
+Infrastructure:
+  - Compute: AWS EKS (Kubernetes) with auto-scaling node groups
+  - Database: PostgreSQL (AWS RDS Multi-AZ) for relational data
+  - Cache: Redis (AWS ElastiCache) for session and response caching
+  - Message Queue: AWS SQS for async job processing
+  - CDN: AWS CloudFront for static assets
+  - Monitoring: Datadog for metrics, logs, and alerts
+
+5. DEPLOYMENT GUIDE
+-------------------
+ACME uses a GitOps CI/CD pipeline via GitHub Actions.
+
+Deployment environments:
+  - dev: Deployed on every push to any feature branch
+  - staging: Deployed on merge to the `develop` branch
+  - production: Deployed on merge to `main` after passing all checks
+
+Deployment steps (automated):
+  1. Code push triggers GitHub Actions workflow
+  2. Unit tests run (must pass 100%)
+  3. Integration tests run against a sandboxed environment
+  4. Docker image built and pushed to AWS ECR
+  5. Helm chart updated with new image tag
+  6. ArgoCD syncs the new Helm chart to the target environment
+  7. Canary deployment: 10% traffic to new version for 10 minutes
+  8. If error rate < 0.1%, full rollout; otherwise, automatic rollback
+
+Manual deployments to production require a change request ticket in Jira and
+approval from two senior engineers.
+
+6. DATABASE SCHEMA OVERVIEW
+----------------------------
+Primary tables in the ACME PostgreSQL database:
+  users           — id, email, name, role, created_at, last_login
+  organizations   — id, name, plan_tier, created_at
+  api_keys        — id, user_id, org_id, key_hash, scopes, rate_limit_tier
+  events          — id, type, payload, user_id, created_at (partitioned by month)
+  audit_logs      — id, action, actor_id, resource_type, resource_id, timestamp
+
+The `events` table is partitioned monthly for query performance. Indexes exist on
+user_id, org_id, and created_at columns across all major tables.
+
+7. WEBHOOKS
+-----------
+ACME supports webhooks for real-time event notifications. Configure webhook endpoints at:
+  https://developer.acme.com/webhooks
+
+Supported event types: user.created, user.updated, data.processed, payment.completed,
+payment.failed, subscription.renewed, subscription.cancelled.
+
+All webhook payloads are signed with HMAC-SHA256. Validate the X-ACME-Signature header
+against your webhook secret to ensure payload authenticity. Unverified webhooks should
+be rejected. Webhook delivery is retried up to 5 times with exponential backoff if your
+endpoint returns a non-2xx status code.
+
+8. SDK REFERENCE
+----------------
+Official SDKs are available for:
+  - Python:     pip install acme-sdk
+  - JavaScript: npm install @acme/sdk
+  - Java:       Maven: com.acme:acme-sdk:2.3.0
+  - Go:         go get github.com/acme/acme-go-sdk
+
+Example (Python):
+    from acme_sdk import AcmeClient
+    client = AcmeClient(api_key="your_key")
+    response = client.data.query(filter={"status": "active"})
+
+9. SLA AND UPTIME
+-----------------
+ACME guarantees the following SLAs:
+  - API availability: 99.9% uptime per calendar month
+  - API latency (p95): < 200ms for standard endpoints
+  - Incident response: P1 incidents acknowledged within 15 minutes
+  - Maintenance windows: Sundays 02:00–04:00 UTC (announced 48h in advance)
+
+Monitor real-time status at: https://status.acme.com
